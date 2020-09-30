@@ -1,0 +1,5 @@
+c = float(input("Enter the temperature(°C): "))
+k = float(c + 273.15)
+f = float(c * 9/5 + 32)
+print("Temperature(K):", format(round(k, 2)))
+print("Temperature(°F):", format(round(f, 2)))
